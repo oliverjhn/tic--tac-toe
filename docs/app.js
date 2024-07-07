@@ -25,8 +25,8 @@ class Player {
     }
 }
 
-const user = new Player("User", "X");
-const enemy = new Player("Enemy", "O");
+const user = new Player("Player 1", "X");
+const enemy = new Player("Player 2", "O");
 
 const GameManager = (function () {
     let gameSquares = document.querySelectorAll(".game-btn");
